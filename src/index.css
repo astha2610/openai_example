@@ -1,0 +1,68 @@
+body {
+  /* background-image: linear-gradient(to right top, #2b0537, #820643, #c4442b, #d69600, #a8eb12); */
+  background-color: #ffffff;
+  height: 100vh;
+}
+.header {
+  background-color: rgb(34, 118, 227);
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+.container {
+  padding: 10px;
+}
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+.buttonWrapper {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: rgb(255, 109, 56);
+  border-radius: 0.6rem;
+  outline: none;
+  padding: 0.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bold;
+  min-width: 30%;
+  font-size: 14px;
+  box-shadow: rgb(0 0 0 / 60%) 0px 1px 3px;
+}
+.searchDetail {
+  font-size: 13px;
+}
+.flightContainer {
+  font-size: 12px;
+}
+.flightCard {
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.flightCardRow {
+  display: flex;
+  flex-direction: row;
+}
+.flex1 {
+  flex: 1;
+}
+.flex4 {
+  flex: 4;
+}
+.dF {
+  display: flex;
+}
+.fb {
+  font-weight: bold;
+}
